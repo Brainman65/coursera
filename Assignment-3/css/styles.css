@@ -1,0 +1,73 @@
+/* Header stuff */
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+#header-nav button {
+	margin-top: 22px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:hover {
+	background-color: lightyellow;
+}
+.navbar-collapse {
+	border-top: 0;
+}
+.navbar-brand, .navbar-nav li a {
+	line-height: 76px;
+	height: 76px;
+	padding-top: 0;
+}
+.navbar-brand h1 {
+		color: black;
+		font-weight: bold;
+		font-size: 1.8em;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px 1px lightyellow;
+}
+#nav-list {
+	background-color: white;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#nav-list hr {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: black;
+	border-top: 1px solid black;
+}
+#nav-list a {
+	font-weight: bolder;
+	color: black;
+	font-size: 1.2em;
+}
+#nav-list a:hover {
+	color: lightyellow;
+	background-color: lightgrey;
+}
+/* end header stuff */
+
+body {
+	min-width:280px;
+}
+.row {
+	background-color: grey;
+	margin:10px;
+	margin-bottom: 30px;
+}
+h2 {
+	font-weight:bold;
+	margin-top:10px;
+	font-size: 1.4em;
+}
+
+.container {
+	width:auto;
+}
+
+
